@@ -1,15 +1,13 @@
 ---
 name: commit
-description: Commit all unstaged changes with atomic, semantically grouped commits.
+description: Commit all uncommitted changes with atomic, semantically grouped commits.
 disable-model-invocation: true
 ---
 
-Commit all unstaged changes with atomic, semantically grouped commits.
-
-Steps:
 1. Review the status and diffs below
-2. Group changes into atomic, semantic commits (don't lump unrelated changes)
-3. For each group, stage the relevant files and commit
+2. For untracked files (`??`), read them to understand what they contain
+3. Group changes into atomic, semantic commits (don't lump unrelated changes)
+4. For each group, stage the relevant files and commit
 
 ## Status
 !`git status --short`
