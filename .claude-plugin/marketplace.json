@@ -1,0 +1,14 @@
+{
+  "name": "kai",
+  "owner": {
+    "name": "kai"
+  },
+  "plugins": [
+    {
+      "name": "coding-skills",
+      "source": "./skills-plugin",
+      "description": "Writing, testing, documentation, and workflow skills",
+      "version": "0.1.0"
+    }
+  ]
+}
