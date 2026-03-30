@@ -5,8 +5,8 @@
   },
   "plugins": [
     {
-      "name": "coding-skills",
-      "source": "./skills-plugin",
+      "name": "craft",
+      "source": "./craft",
       "description": "Writing, testing, documentation, and workflow skills",
       "version": "0.1.0"
     }
