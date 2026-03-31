@@ -3,8 +3,6 @@ name: write-docs
 description: Review and edit documentation, READMEs, guides, or technical prose. Use when writing, reviewing, or improving docs.
 argument-hint: "[file path or paste content]"
 disable-model-invocation: true
-allowed-tools:
-    - WebFetch
 ---
 
 # Writing Documentation

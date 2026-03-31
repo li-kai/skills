@@ -1,8 +1,9 @@
 ---
 name: typescript-tests
 description:
-    TypeScript testing with test.each patterns, and async handling. Use when
+    TypeScript testing with test.each patterns and async handling. Use when
     writing or reviewing TypeScript tests.
+paths: ["**/*.test.ts", "**/*.test.tsx"]
 ---
 
 # TypeScript Tests

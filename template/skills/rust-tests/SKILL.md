@@ -3,6 +3,7 @@ name: rust-tests
 description:
     Rust testing patterns with rstest, parameterization, fixtures, and async
     tests. Use when writing or reviewing Rust tests.
+paths: "**/*.rs"
 ---
 
 # Rust Tests
