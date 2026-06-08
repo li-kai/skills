@@ -1,7 +1,6 @@
 ---
 name: commit
 description: Commit all uncommitted changes with atomic, semantically grouped commits.
-disable-model-invocation: true
 ---
 
 1. Review the status and diffs below
@@ -19,7 +18,7 @@ disable-model-invocation: true
 
 Subject: under 50 chars, no trailing period. No code identifiers or paths. The verb should classify the change — e.g. Add (new), Fix (broken), Remove (gone), Refactor (restructure), Improve (enhance).
 
-Body: prefer bullet lists over prose. One bullet per distinct concern. Explain *why*, not *how*. Include concrete details (versions, thresholds) when they matter. Omit body when the subject says it all.
+Body: optional, omit when the subject and code say it all. Bullet list for multiple concerns, plain sentence for one. Explain *why*, not *how*. Include concrete details (versions, thresholds) when they matter.
 
 Footer (optional): `Closes: #123`, `Fixes: #456`.
 
@@ -36,6 +35,9 @@ Closes: #123
 ```
 Improve bounds validation and conversions
 
-- Reject infinity so the type enforces its name
-- Add TryFrom<f64> convenience impl
+Reject infinity so the type enforces its name
+```
+
+```
+Fix typo in error message
 ```
