@@ -24,19 +24,33 @@ Apply these principles:
 - **Cut, then cut again.** If removing a sentence loses nothing, remove it.
 - **Prefer plain framing over jargon.** "No config changes needed" over
   "existing parametric configuration is preserved."
+- **Acronyms earn their expansion.** Expand on first use only when the words
+  help the reader. "URL" and "HTTP" don't need expansion; "MTU (maximum
+  transmission unit)" might.
+- **Define before use.** Don't reference a term in section N that section
+  N+1 will explain. Reorder, or fold the definition forward.
 - **Use active voice.** "Draft 5 clarifies the spec" not "The spec is clarified
   by Draft 5."
 - **Be concrete.** "Adds three keywords" not "includes several new features."
+- **Examples must break the obvious wrong assumption.** If the naive
+  approach handles the example, it's filler. "Hello, world" doesn't
+  demonstrate i18n; "こんにちは" does.
 - **Omit filler.** "To migrate" not "In order to migrate, you will need to."
 - **Keep modifiers close.** "Can access only owned files" not "can only access
   owned files."
 - **Use parallel structure.** List items and headings follow the same grammatical
   pattern.
-- **Intros must not restate the heading.** Start with the first fact.
+- **Intros must not restate the heading.** Start with the first fact. Under
+  "Webhooks", "Listen to events on your account..." beats "A webhook is a
+  notification...".
 
 **Structure:**
 
 - **Lead with the point.** Essential information first. Readers skim.
+- **Open with what + who.** First sentence names the artifact and
+  its audience so readers self-select in one line. "This guide
+  configures OAuth for backend services" beats "Authentication
+  matters." End with a terse outcome clause, not a sentence.
 - **Progress from simple to complex.** Common cases first, edge cases later.
 - **Headings enable skipping.** Readers find what they need without reading
   everything before it.
