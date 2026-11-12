@@ -18,7 +18,7 @@ description: Commit all uncommitted changes with atomic, semantically grouped co
 
 Subject: under 50 chars, no trailing period. No code identifiers or paths. The verb should classify the change — e.g. Add (new), Fix (broken), Remove (gone), Refactor (restructure), Improve (enhance).
 
-Body: optional, omit when the subject and code say it all. Bullet list for multiple concerns, plain sentence for one. Explain *why*, not *how*. Include concrete details (versions, thresholds) when they matter.
+Body: omit when the subject and code say it all. Bullet list for multiple concerns, plain sentence for one. Explain *why*, not *how*. Include concrete details (versions, thresholds) when they matter.
 
 Footer (optional): `Closes: #123`, `Fixes: #456`.
 
